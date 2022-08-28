@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-cart.css">
+    <title>Document</title>
+    <link rel="shortcut icon" href="icons/favicon-cart.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet"> 
+    <!-- font-family: 'Mulish', sans-serif; -->
+</head>
+<body>
+    <div class="container">
+        <div class="bar">
+            <a href="idex.html"><button class="button-edge-top"><img  class="bar-image" src="icons/S..png" alt=""></button></a>
+            <a href="">              <button class="button">         <img  class="bar-image" src="icons/Vector.png" alt=""></button></a>
+            <a href="indexmenu.html"><button class="button">    <img  class="bar-image" src="icons/restaurant_menu_24px.png" alt=""></button></a>
+            <a href="idexCart.html"><button class="bar-select">         <img  class="bar-image" src="icons/black_shopping_cart_24px.png" alt=""></button></a>
+            <a href="">             <button  class="button">        <img  class="bar-image" src="icons/place_24px.png" alt=""></button></a>
+            <a href="">             <button class="button-edge-bottom"><img  class="bar-image" src="icons/Vector(1).png" alt=""></button></a>
+        </div>
+        <div class="main">
+            <h2>CART</h2>
+            <div class="basket">
+                <div class="basket-items">
+                    <img  class="img" src="image/Rectangle 9.png" alt="">
+                    <div class="basket-text">
+                        <div class="title">Smashed Avo</div>
+                        <div class="price">$20.00</div>
+                    </div>
+                    <div class="quantity">
+                        <button class="qt">-</button>
+                        <div class="number">1</div>
+                        <button class="qt">+</button>
+                    </div>
+                    
+                    <img class="cancel" src="icons/Path.png" alt="">
+                    <!-- <div class="a"><img class="cancel" src="icon-stand.png" alt=""></div> -->
+                </div>
+                <div class="basket-items">
+                    <img   class="img" src="image/Rectangle 10.png" alt="">
+                    <div class="basket-text">
+                        <div class="title">Yin & Yang</div>
+                        <div class="price">$10.00</div>
+                    </div>
+                    <div class="quantity">
+                        <button class="qt">-</button>
+                        <div class="number">1</div>
+                        <button class="qt">+</button>
+                    </div>
+                    <img class="cancel" src="icons/Path.png" alt="">
+                    <!-- <div class="a"><img class="cancel" src="icon-stand.png" alt=""></div> -->
+                </div>
+                <div class="basket-items">
+                    <img  class="img"  src="image/Rectangle 11.png" alt="">
+                    <div class="basket-text">
+                        <div class="title">Pancakes</div>
+                        <div class="price">$25.00</div>
+                    </div>
+                    <div class="quantity">
+                        <button class="qt">-</button>
+                        <div class="number">1</div>
+                        <button class="qt">+</button>
+                    </div>
+                    <img class="cancel" src="icons/Path.png" alt="">
+                    <!-- <div class="a"><img class="cancel" src="icon-stand.png" alt=""></div> -->
+                </div>
+                <div class="basket-items">
+                    <img   class="img" src="image/Rectangle 13.png" alt="">
+                    <div class="basket-text">
+                        <div class="title">Rancheros (Tofu)</div>
+                        <div class="price">$25.00</div>
+                    </div>
+                    <div class="quantity">
+                        <button class="qt">-</button>
+                        <div class="number">1</div>
+                        <button class="qt">+</button>
+                    </div>
+                    <img class="cancel" src="icons/Path.png" alt="">
+                    <!-- <div class="a"><img class="cancel" src="icon-stand.png" alt=""></div> -->
+                </div>
+              
+            </div>
+            <div class="pay">
+                <div class="pay-price">
+                    <div class="pay-title">Your Subtotal</div>
+                    <div class="total">
+                        <div class="text">Subtotal</div>
+                        <div class="total-price">$80.00</div>
+                    </div>
+                    <button onclick="end()" class="pay-button">Confirm Order</button>
+                </div>
+                <div class="promo">
+                    <form action="">
+                        <div class="promo-title">Promo Code</div>
+                        <div class="promo-code"><input id="b" type="text" placeholder="enter promo code"></div>                  
+                        <div class="apply-button">
+                            <input type="submit" onclick="codeCheck()" value="Apply">
+                        </div>
+                    </form>
+                   
+                </div>
+            </div>            
+        </div>
+    </div>
+    <script src="cart.js"> 
+        // function codeCheck() {
+        //     code= document.getElementById(b).value
+        //     if(code="boss"){
+        //         alert("code successful")
+        //     }else{
+        //         alert("${code} does not exist")
+        //     }
+        // }
+        // codeCheck()
+    </script>
+</body>
+</html>
