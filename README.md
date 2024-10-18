@@ -1,3 +1,3 @@
 # Shushi-restaurant
-Side-hustle project
+Side-hustle frontend course project
 Assignment 2
